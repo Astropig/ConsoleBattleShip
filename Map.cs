@@ -19,7 +19,7 @@ namespace ConsoleApp9
             PlaceShips();
         }
 
-        public void GenerateMap()
+        private void GenerateMap()
         {
             for (var x = 0; x < 10; x++)
             {
@@ -65,7 +65,7 @@ namespace ConsoleApp9
             }
         }
 
-        public void PlaceShips()
+        private void PlaceShips()
         {
             for (var t = 0; t < 3;t++)
             {
